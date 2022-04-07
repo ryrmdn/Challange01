@@ -1,0 +1,399 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home_satu {
+    background: #F1F3FF;
+    
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    padding-top: 22px;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0px;
+    background: #F1F3FF;
+    z-index: 1;
+    border: 1px solid #19282F;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 600px;
+    height: 300px;
+    margin-right: 30px;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.kolom {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 35px;
+}
+
+a.tbl-hijau {
+    background: #198754;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-hijau:hover {
+    background: #65C18C;
+    text-decoration: none;
+}
+
+a.tbl-grey {
+    background: #09009B;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-grey:hover {
+    background: #035397;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.home_dua img {
+    width: 200px;
+    height: 100px;
+}
+
+.container {
+    padding: 0 4.3vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.card {
+    width: 210px;
+    margin-bottom: 50px
+}
+
+.satu_kotak {
+    background-color: #198754;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.service {
+    background-color: #FFFFFF;
+    padding: 15px;
+    padding-top: 30px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0,3);
+}
+
+.service p {
+    font-weight: 200;
+    letter-spacing: 0,5px;
+    font-size: 0,3em0
+}
+
+.testimonial {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.list {
+    display: flex;
+}
+
+.list img {
+    width: 20px;
+    height: 20px;
+}
+
+.list p {
+    margin-top: -10px;
+}
+
+.mama_logo img {
+    width: 450px;
+    height: 400px;
+    padding-left: 30px;
+}
+
+.service img {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.testi_card {
+    background-color: #FFFFFF;
+    padding: 15px;
+    padding-top: 30px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0,3);
+    margin: 20px;
+}
+
+.testi_box {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    justify-content: center;
+}
+
+.testi_card img {
+    width: 80px;
+    height: 80px;
+}
+
+.kotak_biru {
+    display: flex;
+    text-align: center;
+    background-color: #09009B;
+    padding: 60px;
+}
+
+.kotak_biru h1 {
+    color: white;
+    padding-top: 20px;
+}
+
+.kotak_biru p {
+    color: white;
+    word-spacing: 1,5px;
+    padding-top: 30px;
+}
+
+.dropdowns {
+    display: flex;
+}
+
+.dropdown_satu {
+    padding-right: 80px;
+}
+
+.accordion {
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    background: white;
+}
+  
+.accordion__label, .accordion__content {
+    padding: 14px 20px;
+}
+  
+.accordion__label {
+    display: flex;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    transition:0.1s;
+    margin-bottom: 20px;
+}
+  
+.accordion__label:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+  
+.accordion__label::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 12px;
+    height: 6px;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
+    background-size: contain;
+    transition: transform 0.4s;
+}
+  
+.accordion__content {
+    background: white;
+    line-height: 1.6;
+    font-size: 0.85em;
+    display: none;
+}
+  
+.accordion__input {
+    display: none;
+}
+  
+.accordion__input:checked ~ .accordion__content {
+    display: block;
+}
+  
+.accordion__input:checked ~ .accordion__label::after {
+    transform: translateY(-50%) rotate(0.5turn);
+}
+
+.foot-main {
+    background: #F1F3FF;
+    display: flex;
+    justify-content: center;
+    flex: 100%;
+    flex-wrap: nowrap;
+    padding-top: 40px;
+}
+
+.foot-row {
+    padding: 5px 10px;
+    margin: 8px;
+}
+
+.foot-row p {
+    color: black;
+    margin-bottom: 5px;
+    font-size: 1.6rem;
+    text-transform: uppercase;    
+    
+}
+.foot-row p::before{ 
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    background-color: none;
+    width: 50px;
+    height: 2px;
+}
+
+.foot-row li{
+    list-style: none;
+    margin: 15px 0;
+}
+
+.foot-row ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 12px;
+    /*display: block;*/ 
+    transition: all 0.3s ease;
+
+}
+.foot-row ul li a:hover{
+    padding-left: 10px;
+}
+
+.social-icon ul li {
+    list-style: none;
+    display: inline-block;
+    background: #F1F3FF;
+    border-radius: 50%;
+    color: black;
+    margin: 5px;
+    /*display: block;*/
+    transition: all 0.3s ease;
+}
+.social-icon ul li {
+    color: black;
+    margin: 2px;
+    /*display: block;*/
+    transition: all 0.3s ease;
+    
+}
+.social-icon ul li i:hover{
+    color: #F1F3FF;
+    padding-left: 10px;
+}
+.social-icon ul li img{
+    width:auto;
+    height: auto;
+}  
+
+.foot-row img{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+@media (max-width:1000px) {
+
+}
